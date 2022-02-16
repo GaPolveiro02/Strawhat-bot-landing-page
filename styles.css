@@ -1,0 +1,150 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #04060e 30.62%, #0567fc 75.32%);
+
+}
+
+.load {
+    position: fixed;
+    z-index:99999;
+    top:0; left:0;
+    width:100%; height:100%;
+    opacity:1;
+    background-color:#06060c;
+    background-image:url(./images/LuffyPositive.gif);
+    background-size:298px 298px;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.header-image {
+    height: 65px;
+    width: 65px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.header-menu-item {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #d6ecff;
+}
+
+.header-menu-item:hover {
+    color: #ffffff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 5px;
+
+}
+
+.content {
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 48px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.main-content-div {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.main-content-div-titule {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    color: #ffffff;
+}
+
+.main-content-div-description {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #d6ecff;
+}
+
+.main-content-div-button {
+    background-color: #d6ecff;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    width: 180px;
+    height: 60px;
+    border-radius: 13px;
+    border: none;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.main-content-div-button:hover {
+    border: 0.5px solid #d6ecff;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #d6ecff;
+}
+
+.main-content-image {
+    height: 350px;
+}
+
+.second-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    padding-bottom: 20px;
+}
+
+.second-content-titule {
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.second-content-p {
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #d6ecff;
+}
+
+.footer {
+    padding: 22px;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.footer-image {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
