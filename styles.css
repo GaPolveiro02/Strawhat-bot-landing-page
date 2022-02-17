@@ -19,8 +19,8 @@ body {
     width:100%; height:100%;
     opacity:1;
     background-color:#06060c;
-    background-image:url(./images/LuffyPositive.gif);
-    background-size:298px 298px;
+    background-image:url(./images/LuffyPunch.gif);
+    background-size: 400px;
     background-position:center;
     background-repeat:no-repeat;
 }
@@ -40,21 +40,23 @@ body {
 
 .header-menu {
     display: flex;
-    gap: 32px;
+    gap: 35px;
 }
 
 .header-menu-item {
+    display: flex;
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #d6ecff;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 
 .header-menu-item:hover {
+    border-bottom: 0.5px solid #d6ecff;
     color: #ffffff;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    margin-bottom: 5px;
-
 }
 
 .content {
@@ -101,6 +103,7 @@ body {
     font-family: 'Sarala', sans-serif;
     font-weight: 500;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .main-content-div-button:hover {
@@ -110,7 +113,8 @@ body {
 }
 
 .main-content-image {
-    height: 350px;
+    height: 400px;
+    transition: 2s;
 }
 
 .second-content {
@@ -119,7 +123,7 @@ body {
     align-items: center;
     gap: 24px;
     margin-top: 48px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 .second-content-titule {
@@ -141,10 +145,24 @@ body {
 .footer {
     padding: 22px;
     border-top: 1px solid rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .footer-image {
     height: 48px;
     display: block;
     margin: 0 auto;
+}
+
+.made-by {
+    color: #d6ecff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+strong {
+    cursor: pointer;
 }
